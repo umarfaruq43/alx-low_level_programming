@@ -10,13 +10,20 @@
 
 int main(void)
 {
-        char alpha = 'a';
+        char alpha = 'a', sec = 'A';
 
         while (alpha <= 'z')
         {
                 putchar(alpha);
                 alpha++;
         }
+
+        while (sec <= 'Z')
+        {
+                putchar(alpha);
+                sec++;
+        }
+
         putchar('\n');
 
         return (0);
