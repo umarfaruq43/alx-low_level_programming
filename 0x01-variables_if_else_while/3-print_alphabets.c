@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * wanna print a-zA-Z
+ * main - Entry point
+ * describtion- wanna print a-zA-Z
  *
  * Return 0 - success
  */
@@ -21,6 +22,7 @@ int main()
                 putchar(beta);
                 beta++;
         }
+
         putchar('\n');
 
         return (0);

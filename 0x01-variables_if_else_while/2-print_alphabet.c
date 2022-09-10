@@ -10,7 +10,8 @@
 
 int main(void)
 {
-        char alpha = 'a', sec = 'A';
+        char alpha = 'a';
+        char sec = 'A';
 
         while (alpha <= 'z')
         {
@@ -20,7 +21,7 @@ int main(void)
 
         while (sec <= 'Z')
         {
-                putchar(alpha);
+                putchar(sec);
                 sec++;
         }
 
