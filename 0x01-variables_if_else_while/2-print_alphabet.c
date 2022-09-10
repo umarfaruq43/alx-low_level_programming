@@ -1,31 +1,20 @@
 #include <stdio.h>
 
 /**
- * main- this is the entry of the file
- *
- * Describtion- wanna print a-z
- *
- *  Return: Always 0 (Success)
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-        char alpha = 'a';
-        char sec = 'A';
+	char alpha = 'a';
 
-        while (alpha <= 'z')
-        {
-                putchar(alpha);
-                alpha++;
-        }
+	while (alpha <= 'z')
+	{
+		putchar(alpha);
+		alpha++;
+	}
+	putchar('\n');
 
-        while (sec <= 'Z')
-        {
-                putchar(sec);
-                sec++;
-        }
-
-        putchar('\n');
-
-        return (0);
+	return (0);
 }
