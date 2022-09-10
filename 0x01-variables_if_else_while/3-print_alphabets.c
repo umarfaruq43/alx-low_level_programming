@@ -8,22 +8,22 @@
  */
 int main(void)
 {
-        char alpha = 'a';
-        char beta = 'A';
+	char alpha = 'a';
+	char beta = 'A';
 
-        while (alpha <= 'z')
-        {
-                putchar(alpha);
-                alpha++;
-        }
+	while (alpha <= 'z')
+	{
+		putchar(alpha);
+		alpha++;
+	}
 
-        while (beta <= 'Z')
-        {
-                putchar(beta);
-                beta++;
-        }
+	while (beta <= 'Z')
+	{
+		putchar(beta);
+		beta++;
+	}
 
-        putchar('\n');
+	putchar('\n');
 
-        return (0);
+	return (0);
 }
