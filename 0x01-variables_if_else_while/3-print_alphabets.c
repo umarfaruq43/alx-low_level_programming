@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * describtion- wanna print a-zA-Z
+ * describtion - wanna print a-zA-Z
  *
  * Return 0 - success
  */
