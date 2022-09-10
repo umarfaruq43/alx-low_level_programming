@@ -9,18 +9,18 @@
  *              greater than, is zero and is not less than 6.
  *
  * Return: Always O (Success)
-*/
+ */
 
 int main(void)
 {
-	int n;
+        int n;
         int digit;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+        srand(time(0));
+        n = rand() - RAND_MAX / 2;
+        /* your code goes there */
 
-                digit = n % 10; /* This code  is to get the last digit*/
+        digit = n % 10; /* This code  is to get the last digit*/
 
         if (digit > 5)
         {
@@ -34,5 +34,5 @@ int main(void)
         {
                 printf("Last digit of %i is %i and is less than 6 and not 0\n", n, digit);
         }
-	return (0);
+        return (0);
 }
