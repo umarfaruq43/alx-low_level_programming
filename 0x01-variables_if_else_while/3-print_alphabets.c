@@ -1,17 +1,14 @@
 #include <stdio.h>
 
 /**
- * main- this is the entry of the file
+ * wanna print a-zA-Z
  *
- * Describtion- wanna print a-z
- *
- *  Return: Always 0 (Success)
+ * Return 0 - success
  */
-
-int main(void)
+int main()
 {
         char alpha = 'a';
-        char sec = 'A';
+        char beta = 'A';
 
         while (alpha <= 'z')
         {
@@ -19,12 +16,11 @@ int main(void)
                 alpha++;
         }
 
-        while (sec <= 'Z')
+        while (beta <= 'Z')
         {
-                putchar(sec);
-                sec++;
+                putchar(beta);
+                beta++;
         }
-
         putchar('\n');
 
         return (0);
