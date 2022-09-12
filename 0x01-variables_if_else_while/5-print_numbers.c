@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Description: Printing binary numbers
- * return: Always 0 success
- */
+* main - Entry point
+*
+* Description: 'Printing numbers to the surface'
+*
+* Return: Always 0 (Success)
+*/
+
 int main(void)
 {
 	int start = 0;
