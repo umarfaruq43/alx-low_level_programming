@@ -2,6 +2,7 @@
 
 /**
  * main - Entry point
+ * Description: Printing binary numbers
  * return: Always 0 success
  */
 int main(void)
