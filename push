@@ -1,0 +1,9 @@
+#!/bin/bash
+git add .
+read -p "Enter your commit message: " word
+echo "You entered $word"
+git commit -m "$word"
+git push
+echo "***************************************************"
+echo "Yo! Nigga 🤪🤪, push Done, You better check if it was successful 🫣 🙃"
+echo "***************************************************"
