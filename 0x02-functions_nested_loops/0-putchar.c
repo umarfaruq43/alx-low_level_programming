@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * @c: printing _putchar
+ * Description: printing _putchar
  *
  * Return: On success 0.
  *
