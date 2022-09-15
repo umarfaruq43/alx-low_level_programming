@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
- * Description: Printing a - z using C
  *
- * Return: Always (0) success.
+ * Return: On success 0.
+ *
  */
 
 void print_alphabet(void)
