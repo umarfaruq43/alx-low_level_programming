@@ -3,7 +3,9 @@
 /**
  * main - Entry point
  *
- * Describtion: Print a - z
+ * Description: Print a - z
+ *
+ * Return: Always (0) success.
  */
 
 void print_alphabet(void)
