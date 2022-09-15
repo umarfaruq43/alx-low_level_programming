@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet_x10 - Entry point
  *
  * Describtion: Print a - z
  */
 
-void print_alphabet(void)
+void  print_alphabet_x10(void)
 {
 	int a;
 	int start;
