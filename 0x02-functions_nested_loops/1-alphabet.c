@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Print a - z
+ * Description: Printing a - z using C
  *
  * Return: Always (0) success.
  */
