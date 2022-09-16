@@ -1,26 +1,28 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * more_numbers - check the code
- * Description: printing more numbers using nested loops
- * Return: Always 0.
- */
+ * more_numbers - print 0 - 14 ten times and you
+ *		can only use _putchar three times
+ *
+ * Return: Always 0 (Success)
+*/
+
 void more_numbers(void)
 {
-	int a = 0;
-	int b;
+	int num, row, count;
 
-	while (a <= 10)
+	for (row = 1; row <= 10; ++row)
 	{
-		b = 0;
-
-		while (b <= '9')
+		for (count = 0; count <= 14; ++count)
 		{
-			// _putchar(b);
+			num = count;
+			if (count > 9)
+			{
+				_putchar(1 + 48);
+				num = count % 10;
+			}
+			_putchar(num + 48);
 		}
-		b++;
-		a++;
-
 		_putchar('\n');
 	}
 }
